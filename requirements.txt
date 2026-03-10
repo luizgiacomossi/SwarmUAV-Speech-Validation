@@ -1,0 +1,10 @@
+# Core Acoustic & Textual processing libraries required for SpeechDrones Validation Pipeline
+jellyfish
+pronouncing
+gTTS
+pydub
+SpeechRecognition
+
+# ASR Engine Dependencies (Option A / Offline Edge Computing)
+soundfile
+openai-whisper
