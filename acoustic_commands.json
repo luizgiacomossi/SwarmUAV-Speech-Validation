@@ -1,0 +1,142 @@
+[
+    {
+        "id": 0,
+        "asr_transcription": "turn 4 go to 8.1",
+        "asr_confidence": 0.806,
+        "inferred_intent": "GOTO",
+        "snr_db": 0.0,
+        "ground_truth": {
+            "intent": "GOTO",
+            "target": "D4",
+            "parameters": "WP1",
+            "base_confidence": 0.93,
+            "severity": "NAV"
+        }
+    },
+    {
+        "id": 1,
+        "asr_transcription": "report status drone one",
+        "asr_confidence": 0.825,
+        "inferred_intent": "STATUS",
+        "snr_db": 0.0,
+        "ground_truth": {
+            "intent": "STATUS",
+            "target": "D1",
+            "parameters": "NULL",
+            "base_confidence": 0.922,
+            "severity": "QUERY"
+        }
+    },
+    {
+        "id": 2,
+        "asr_transcription": "report status team green",
+        "asr_confidence": 0.724,
+        "inferred_intent": "STATUS",
+        "snr_db": 0.0,
+        "ground_truth": {
+            "intent": "STATUS",
+            "target": "GREEN",
+            "parameters": "NULL",
+            "base_confidence": 0.949,
+            "severity": "QUERY"
+        }
+    },
+    {
+        "id": 3,
+        "asr_transcription": "show camera drone one",
+        "asr_confidence": 0.258,
+        "inferred_intent": "VIDEO",
+        "snr_db": 0.0,
+        "ground_truth": {
+            "intent": "VIDEO",
+            "target": "D1",
+            "parameters": "NULL",
+            "base_confidence": 0.973,
+            "severity": "QUERY"
+        }
+    },
+    {
+        "id": 4,
+        "asr_transcription": "show feed drone 3",
+        "asr_confidence": 0.128,
+        "inferred_intent": "VIDEO",
+        "snr_db": 0.0,
+        "ground_truth": {
+            "intent": "VIDEO",
+            "target": "D3",
+            "parameters": "NULL",
+            "base_confidence": 0.935,
+            "severity": "QUERY"
+        }
+    },
+    {
+        "id": 5,
+        "asr_transcription": "go to waypoint one",
+        "asr_confidence": 0.0,
+        "inferred_intent": "GOTO",
+        "snr_db": 0.0,
+        "ground_truth": {
+            "intent": "GOTO",
+            "target": "NULL",
+            "parameters": "WP1",
+            "base_confidence": 0.945,
+            "severity": "NAV"
+        }
+    },
+    {
+        "id": 6,
+        "asr_transcription": "show camera team blue",
+        "asr_confidence": 0.391,
+        "inferred_intent": "VIDEO",
+        "snr_db": 0.0,
+        "ground_truth": {
+            "intent": "VIDEO",
+            "target": "BLUE",
+            "parameters": "NULL",
+            "base_confidence": 0.958,
+            "severity": "QUERY"
+        }
+    },
+    {
+        "id": 7,
+        "asr_transcription": "return to bass",
+        "asr_confidence": 0.718,
+        "inferred_intent": "UNKNOWN",
+        "snr_db": 0.0,
+        "ground_truth": {
+            "intent": "RTL",
+            "target": "NULL",
+            "parameters": "NULL",
+            "base_confidence": 0.941,
+            "severity": "CRITICAL"
+        }
+    },
+    {
+        "id": 8,
+        "asr_transcription": "turn to fly to waypoint one",
+        "asr_confidence": 0.364,
+        "inferred_intent": "GOTO",
+        "snr_db": 0.0,
+        "ground_truth": {
+            "intent": "GOTO",
+            "target": "D2",
+            "parameters": "WP1",
+            "base_confidence": 0.966,
+            "severity": "NAV"
+        }
+    },
+    {
+        "id": 9,
+        "asr_transcription": "we're going to go to waypoint 2",
+        "asr_confidence": 0.76,
+        "inferred_intent": "GOTO",
+        "snr_db": 0.0,
+        "ground_truth": {
+            "intent": "GOTO",
+            "target": "D2",
+            "parameters": "WP2",
+            "base_confidence": 0.939,
+            "severity": "NAV"
+        }
+    }
+]
